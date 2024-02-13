@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-firesafetyguard-dev-110445-authRole",
+      "UnauthRoleArn": "arn:aws:iam::654654335375:role/amplify-firesafetyguard-dev-110445-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::654654335375:role/amplify-firesafetyguard-dev-110445-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-firesafetyguard-dev-110445-deployment",
+      "UnauthRoleName": "amplify-firesafetyguard-dev-110445-unauthRole",
+      "StackName": "amplify-firesafetyguard-dev-110445",
+      "StackId": "arn:aws:cloudformation:us-east-1:654654335375:stack/amplify-firesafetyguard-dev-110445/9ba9c970-ca89-11ee-b668-0e26f9e7020d",
+      "AmplifyAppId": "d120p9rwd7zvxh"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d120p9rwd7zvxh",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
