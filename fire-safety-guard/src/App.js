@@ -11,7 +11,7 @@ import About from './pages/About/About'
 import ContactForm from './pages/ContactForm/ContactForm'
 
 import NavBar from './components/NavBar/NavBar'
-import Footer from './components/Footer/Footer'
+// import Footer from './components/Footer/Footer'
 
 function App() {
   const location = useLocation()
