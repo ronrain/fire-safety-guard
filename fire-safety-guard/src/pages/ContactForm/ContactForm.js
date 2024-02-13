@@ -10,8 +10,8 @@ const ContactForm = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, form.current, {
-        publicKey: import.meta.env.VITE_PUBLIC_KEY,
+      .sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, {
+        publicKey: process.env.REACT_APP_PUBLIC_KEY,
       })
       .then(
         () => {
@@ -27,7 +27,7 @@ const ContactForm = () => {
     <div className="container">
   <div className="row">
     <div className="col-md-6">
-      <img src="./fire-ext-sign.png" alt="Logo" className="navbar-logo" style={{ width: '100%', height: 'auto' }} />
+      <img src="./fire-ext-sign.png" alt="Let Us Extinguish Your Fire Safety Concerns" className="navbar-logo" style={{ width: '100%', height: 'auto' }} />
     </div>
     <div className="col-md-6">
       <form ref={form} onSubmit={sendEmail} className="p-4">
