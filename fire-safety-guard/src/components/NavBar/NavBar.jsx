@@ -4,7 +4,7 @@ import './NavBar.css';
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
         {/* Left side of the navbar */}
         <div className="d-flex align-items-center">
@@ -12,7 +12,7 @@ const NavBar = () => {
             <img src='./logo.png' alt="Logo" style={{ width: '70px', height: 'auto' }} />
           </a>
         {/* Center content */}
-        <h3 href="tel:+3473927031" className="navbar-text text-center mb-0 phone-number me-auto" style={{ color: '#3185fc' }}><strong>In Case of an Emergency <br />Call 3473927031</strong></h3>
+        <h3 href="tel:+3473927031" className="navbar-text text-center mb-0 phone-number me-auto" style={{ color: 'white' }}><strong>In Case of an Emergency <br />Call 3473927031</strong></h3>
         </div>
         {/* Right side of the navbar */}
         <div className="d-flex align-items-center">
