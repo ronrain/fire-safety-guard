@@ -1,12 +1,36 @@
 .navbar {
-  background-color: #880d1e;
-background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23eef0eb' fill-opacity='1'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-color: #b51933;
+background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23888686' fill-opacity='1'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 font-family: 'Roboto Slab', serif;
 font-weight: bolder;
 }
 
-.nav-link {
-  font-weight: bolder;
-  color: #880d1e;
+.navbar-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
 }
+
+.phone-number {
+  text-decoration: none;
+  color: #222725;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-link {
+  color: aliceblue;
+}
+
+
 

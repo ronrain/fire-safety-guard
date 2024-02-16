@@ -31,7 +31,7 @@ function App() {
       <div className="row">
         <div className="col-lg-8 mx-auto">
           <h1 className="display-4 text-center">OSHA 2020 Consultants</h1>
-          <img src="./fire-safety.png" alt="At Home Fire Safety" className="fire-safety img-fluid" style={{ float:'right', maxWidth: '30%', height: 'auto' }} />
+          <img src="./fire-safety.png" alt="At Home Fire Safety" className="fire-safety img-fluid" style={{ float:'right', maxWidth: '65%', height: 'auto' }} />
           <p className="lead">
             OSHA 2020 Consultants is your trusted partner for fire safety solutions. Serving the tri-state area, we specialize in a wide range of services to ensure the safety and compliance of your premises.
           </p>
