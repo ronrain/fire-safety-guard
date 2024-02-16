@@ -1,0 +1,12 @@
+footer, body{
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.bg-dark, .text-white, .py-4, .mt-auto, .d-flex, .flex-column{
+  margin-top: 0;
+  padding-top: 0;
+  box-sizing: border-box;
+}
+
+

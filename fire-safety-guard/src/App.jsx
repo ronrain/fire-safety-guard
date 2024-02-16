@@ -1,33 +1,47 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+//css
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+import { Route, Routes, useLocation } from 'react-router-dom'
 
+//pages
+import Details from './pages/Details/Details'
+import About from './pages/About/About'
+import ContactForm from './pages/ContactForm/ContactForm'
+
+import NavBar from './components/NavBar/NavBar'
+import Footer from './components/Footer/Footer'
+
+function App() {
+  const location = useLocation()
+
+  const isRootPath = location.pathname === '/'
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <NavBar />
+      {/* <a href="tel:+3473927031" className="text-center" style={{}}><strong>For Immediate Assistance Call 3473927031</strong></a> */}
+      <Routes>
+        <Route path='/details' element={<Details />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/contact' element={<ContactForm />} />
+      </Routes>
+      {isRootPath && (
+      <main className="container">
+      <div className="row">
+        <div className="col-lg-8 mx-auto">
+          <h1 className="display-4 text-center">OSHA 2020 Consultants</h1>
+          <img src="./fire-safety.png" alt="At Home Fire Safety" className="fire-safety img-fluid" style={{ float:'right', maxWidth: '30%', height: 'auto' }} />
+          <p className="lead">
+            OSHA 2020 Consultants is your trusted partner for fire safety solutions. Serving the tri-state area, we specialize in a wide range of services to ensure the safety and compliance of your premises.
+          </p>
+          <p className='lead'><strong>All of our Fire Guards are FDNY certified.</strong> Our fire guards can provide assistance for Impairments (F-01), Shelters (F-02), Temporary Assembly (F-04), Fire Safety Managers (S-56) and Temporary Heat (S-92). We have worked for corporate buildings, venues construction sites and many more. Whatever you need, we can provide you with the highest level of service.</p>
+          <p className='lead'>We offer round-the-clock availability, <strong>24/7/365</strong>, to address any Fire Life Safety emergencies at your facility, ensuring compliance with local regulations and the continuous operation of your building.</p>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    </main>
+      )}
+    {/* <Footer /> */}
     </>
   )
 }
