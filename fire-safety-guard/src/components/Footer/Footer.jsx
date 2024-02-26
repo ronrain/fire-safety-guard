@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <h5>OSHA 2020 Consultants - Fire Safety</h5>
+            <h5>OSHA2020Consultants - Fire Safety</h5>
             <p>Email: info@example.com</p>
             <a href="tel:+3473927031" className="mr-auto"><strong>For Immediate Assistance Call 3473927031</strong></a>
           </div>
