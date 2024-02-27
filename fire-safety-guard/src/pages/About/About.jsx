@@ -3,7 +3,7 @@ import './About.css'
 const About = () => {
   return (
     <main>
-      <div className="container" style={{backgroundColor: 'white'}}>
+      <div className="container" style={{backgroundColor: 'white', padding:'2rem'}}>
         <h1 className="display-4 text-center">Who We Are</h1>
         <div className="row justify-content-center">
           <div className="col-lg-8">

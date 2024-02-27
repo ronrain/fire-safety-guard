@@ -51,7 +51,7 @@
   border-radius: 12px;
   font-size: 1.1rem;
   color: white;
-  background: hsl(345deg 100% 47%);
+  background: #b51933;
   will-change: transform;
   transform: translateY(-4px);
   transition:
