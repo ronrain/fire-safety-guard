@@ -24,7 +24,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container"style={{backgroundColor: 'white'}}>
   <div className="row">
     <div className="col-md-6">
       <img src="./fire-ext-sign.png" alt="Logo" className="navbar-logo" style={{ width: '100%', height: 'auto' }} />
@@ -63,6 +63,9 @@ const ContactForm = () => {
         </button>
       </form>
     </div>
+    <a href="tel:+3473927031" className="navbar-text text-center mb-0 phone-number me-auto" style={{ color: 'black', fontSize: '1.2rem' }}>
+          <strong>For Immediate Attention <br />Call 347-392-7031</strong>
+        </a>
   </div>
 </div>
 

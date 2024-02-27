@@ -9,33 +9,34 @@ const NavBar = () => {
         {/* Left side of the navbar */}
         <div className="d-flex align-items-center">
           <a className="navbar-brand me-3" href="/">
-            <img src='./logo.png' alt="Logo" style={{ width: '70px', height: 'auto' }} />
-          </a>
-          {/* Center content */}
-          <a href="tel:+3473927031" className="navbar-text text-center mb-0 phone-number me-auto" style={{ color: 'white', fontSize:'1.8rem' }}>
-            <strong>In Case of an Emergency <br />Call 3473927031</strong>
+            <div className="d-flex align-items-center" style={{backgroundColor:'#b51933', padding: '5px', borderRadius: '5px', border: '4px solid #888686', marginBottom: '5px'  }}>
+              <img src='./logo.png' alt="Logo" style={{ width: '70px', height: 'auto' }} /><h1 className="display-4 text-center ms-2 mb-0" style={{ fontSize: '1.7rem', color:'white' }}>OSHA2020 <br /> Consultants</h1>
+            </div>
           </a>
         </div>
+        {/* <a href="tel:+3473927031" className="navbar-text text-center mb-0 phone-number me-auto" style={{ color: 'white', fontSize: '1.2rem' }}>
+          <strong>For Immediate Attention <br />Call 3473927031</strong>
+        </a> */}
         {/* Right side of the navbar */}
         <div className="d-flex align-items-center">
           {/* Links dropdown menu */}
           <div className="dropdown justify-content-end">
             <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-              OSHA2020Consultants
+              Menu
             </button>
             <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
               <li className="nav-item">
-                <Link to="/about" className="nav-link text-decoration-none" style={{ color: 'red' }}>
+                <Link to="/about" className="nav-link text-decoration-none" style={{ color: '#880d1e' }}>
                   Who We Are
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/details" className="nav-link text-decoration-none" style={{ color: 'red' }}>
+                <Link to="/details" className="nav-link text-decoration-none" style={{ color: '#880d1e' }}>
                   What We Do
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/contact" className="nav-link text-decoration-none" style={{ color: 'red' }}>
+                <Link to="/contact" className="nav-link text-decoration-none" style={{ color: '#880d1e' }}>
                   Contact Us
                 </Link>
               </li>
