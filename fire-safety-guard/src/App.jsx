@@ -27,7 +27,7 @@ function App() {
         <Route path='/contact' element={<ContactForm />} />
       </Routes>
       {isRootPath && (
-        <main className="container"style={{backgroundColor:'white', padding:'2rem'}}>
+        <main className="container" style={{ backgroundColor: 'white', padding: '2rem' }}>
           <div className="row">
             <div className="col-lg-8 mx-auto">
               {/* <h1 className="display-4 text-center">OSHA2020 Consultants</h1>
@@ -39,6 +39,13 @@ function App() {
               </p>
               <p className='lead'><strong>All of our Fire Guards are FDNY certified.</strong> Our fire guards can provide assistance for Impairments (F-01), Shelters (F-02), Temporary Assembly (F-04), Fire Safety Managers (S-56) and Temporary Heat (S-92). We have worked for corporate buildings, venues construction sites and many more. Whatever you need, we can provide you with the highest level of service.</p>
               <p className='lead'>We offer round-the-clock availability, <strong>24/7/365</strong>, to address any Fire Life Safety emergencies at your facility, ensuring compliance with local regulations and the continuous operation of your building.</p>
+              <div className='text-center mt-4'>
+                <button className="button-82-pushable" role="button">
+                  <span className="button-82-shadow"></span>
+                  <span className="button-82-edge"></span>
+                  <span className="button-82-front text">Contact Us Today!</span>
+                </button>
+              </div>
             </div>
           </div>
         </main>
