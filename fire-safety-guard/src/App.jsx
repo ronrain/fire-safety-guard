@@ -48,6 +48,11 @@ function App() {
                   </button>
                 </a>
               </div> */}
+              <div className='text-center text-decoration-none'>
+                <a href="mailto:OSHA2020Consultants@gmail.com" style={{textDecoration:'underline', textDecorationColor:'#3185fc', color:'#b51933'}}>
+                  <h3 style={{fontSize:'1.2rem'}}>Email Us Today at OSHA2020Consultants@gmail.com</h3>
+                </a>
+              </div>
             </div>
           </div>
         </main>
