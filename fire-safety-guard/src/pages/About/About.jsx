@@ -7,10 +7,17 @@ const About = () => {
         <h1 className="display-4 text-center">Who We Are</h1>
         <div className="row justify-content-center">
           <div className="col-lg-8">
-            <p className="lead">
-              We are a fire safety company serving the tri-state area. Our expertise extends to <strong>both commercial and residential properties</strong>, including prestigious locations such as UBS Arena and other major sites throughout the tri-state area. We pride ourselves on having all <strong>FDNY Certified Fire Guards</strong>!
-            </p>
+          <div className='mt-4' style={{ display: 'flex', alignItems: 'center' }}>
+  <img src="NYCFD.png" alt="All Fire Guards are certified by the Fire Department of New York" className="img-fluid" style={{ maxWidth: '40%', marginRight: '1rem' }} />
+  <div>
+    <p className="lead" style={{ margin: 0 }}>
+      We are a fire safety company serving the tri-state area. Our expertise extends to <strong>both commercial and residential properties</strong>, including prestigious locations such as UBS Arena and other major sites throughout the tri-state area. We pride ourselves on having all <strong>FDNY Certified Fire Guards</strong>!
+    </p>
+  </div>
+</div>
 
+<br />
+<br />
             <div className="mt-4">
               <h3 className="mt-4">Is Your Home Safe?</h3>
               <img src="./smoke-de.webp" alt="Using WIFI enabled smoke detectors are the future of safety!" className="img-fluid" style={{ float:'left', maxWidth: '60%', height: 'auto', margin:'1rem' }} />

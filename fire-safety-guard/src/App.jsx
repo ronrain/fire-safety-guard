@@ -4,6 +4,8 @@ import { useState } from 'react'
 import './App.css'
 
 import { Route, Routes, useLocation } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+
 
 //pages
 import Details from './pages/Details/Details'
@@ -39,18 +41,16 @@ function App() {
               </p>
               <p className='lead'><strong>All of our Fire Guards are FDNY certified.</strong> Our fire guards can provide assistance for Impairments (F-01), Shelters (F-02), Temporary Assembly (F-04), Fire Safety Managers (S-56) and Temporary Heat (S-92). We have worked for corporate buildings, venues construction sites and many more. Whatever you need, we can provide you with the highest level of service.</p>
               <p className='lead'>We offer round-the-clock availability, <strong>24/7/365</strong>, to address any Fire Life Safety emergencies at your facility, ensuring compliance with local regulations and the continuous operation of your building.</p>
-              {/* <div className='text-center mt-4'>
-                <a href='/contact'>
-                  <button className="button-82-pushable" role="button">
-                    <span className="button-82-shadow"></span>
-                    <span className="button-82-edge"></span>
-                    <span className="button-82-front text">Contact Us Today!</span>
-                  </button>
-                </a>
-              </div> */}
+              
+                <Link to="/contact" className="button-82-pushable text-center mt-4" role="button">
+                  <span className="button-82-shadow"></span>
+                  <span className="button-82-edge"></span>
+                  <span className="button-82-front text">Contact Us Today!</span>
+                </Link>
+              
               <div className='text-center text-decoration-none'>
-                <a href="mailto:OSHA2020Consultants@gmail.com" style={{textDecoration:'underline', textDecorationColor:'#3185fc', color:'#b51933'}}>
-                  <h3 style={{fontSize:'1.2rem'}}>Email Us Today at OSHA2020Consultants@gmail.com</h3>
+                <a href="mailto:OSHA2020Consultants@gmail.com" style={{ textDecoration: 'underline', textDecorationColor: '#3185fc', color: '#b51933' }}>
+                  <h3 style={{ fontSize: '1.2rem' }}>Email Us Directly at OSHA2020Consultants@gmail.com</h3>
                 </a>
               </div>
             </div>
