@@ -11,9 +11,10 @@ import { Link } from 'react-router-dom';
 import Details from './pages/Details/Details'
 import About from './pages/About/About'
 import ContactForm from './pages/ContactForm/ContactForm'
+import ReviewPage from './components/Review/ReviewPage';
 
 import NavBar from './components/NavBar/NavBar'
-import Footer from './components/Footer/Footer'
+// import Footer from './components/Footer/Footer'
 
 function App() {
   const location = useLocation()
@@ -27,6 +28,7 @@ function App() {
         <Route path='/details' element={<Details />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<ContactForm />} />
+        <Route path='/reviews' element={<ReviewPage />} />
       </Routes>
       {isRootPath && (
         <main className="container" style={{ backgroundColor: 'white', padding: '2rem' }}>
@@ -57,11 +59,11 @@ function App() {
           </div>
         </main>
       )}
-      <footer class="text-center text-lg-start">
-        <div class="container p-4">
-          <div class="row">
-            <div class="col-lg-8 d-flex justify-content-center mx-auto">
-              <p class="m-0">© 2024 OSHA2020 Consultants. All rights reserved.</p>
+      <footer className="text-center text-lg-start">
+        <div className="container p-4">
+          <div className="row">
+            <div className="col-lg-8 d-flex justify-content-center mx-auto">
+              <p className="m-0">© 2024 OSHA2020 Consultants. All rights reserved.</p>
             </div>
           </div>
         </div>

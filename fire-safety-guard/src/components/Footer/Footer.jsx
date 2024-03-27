@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <body class="d-flex flex-column" style={{margin:'0', padding:'0'}}>
+    <body className="d-flex flex-column" style={{margin:'0', padding:'0'}}>
     <footer className="bg-dark text-white py-4 mt-auto" style={{margin:'0', padding:'0', position:'relative'}}>
       <div className="container">
         <div className="row">

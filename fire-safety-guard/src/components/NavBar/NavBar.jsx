@@ -35,6 +35,11 @@ const NavBar = () => {
                   What We Do
                 </Link>
               </li>
+              {/* <li className="nav-item text-center">
+                <Link to="/reviews" className="nav-link text-decoration-none" style={{ color: '#880d1e', padding: '20px', fontSize: '1.3rem' }}>
+                  Reviews
+                </Link>
+              </li> */}
               <li className="nav-item text-center">
                 <Link to="/contact" className="nav-link text-decoration-none" style={{ color: '#880d1e', padding: '10px', fontSize: '1.3rem' }}>
                   Contact Us
