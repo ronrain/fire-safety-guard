@@ -49,7 +49,7 @@ function App() {
           <GoogleReview />
           <br />
               <div className="d-flex justify-content-center align-items-center">
-                <Link to="/contact" className="button-82-pushable text-center mt-4 d-inline-block" role="button">
+                <Link to="/contact" className="button-82-pushable text-center mt-4 d-inline-block" role="button" style={{ textDecoration: 'none'}}>
                   <span className="button-82-shadow"></span>
                   <span className="button-82-edge"></span>
                   <span className="button-82-front text">Contact Us Today!</span>
@@ -57,7 +57,7 @@ function App() {
                 </div>
               <br />
               <div className='text-center text-decoration-none'>
-                <a href="mailto:OSHA2020Consultants@gmail.com" style={{ textDecoration: 'underline', textDecorationColor: '#3185fc', color: '#b51933' }}>
+                <a href="mailto:OSHA2020Consultants@gmail.com" style={{ textDecoration: 'none', color: '#b51933' }}>
                   <h3 style={{ fontSize: '1.2rem' }}>Email Us Directly at OSHA2020Consultants@gmail.com</h3>
                 </a>
               </div>

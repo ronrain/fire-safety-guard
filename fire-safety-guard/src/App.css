@@ -13,7 +13,7 @@ nav {
 }
 
 a {
-  color: #a53f2b;
+  color: #880d1e;
   border-bottom: 1px solid transparent;
   text-decoration: none;
   font-size: 16px;
@@ -31,13 +31,13 @@ nav > a {
 }
 
 a:hover {
-  border-bottom: 1px solid #a53f2b;
-  color: #a53f2b;
+  border-bottom: 1px solid #880d1e;
+  color: #880d1e;
 }
 
 nav > a:hover {
-  border-bottom: 2px solid #a53f2b;
-  color: #a53f2b;
+  border-bottom: 2px solid #880d1e;
+  color: #880d1e;
 }
 
 .link-container {

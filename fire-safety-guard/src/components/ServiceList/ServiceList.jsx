@@ -13,7 +13,7 @@ const ServiceList = (props) => {
           <div className="card-body">
             <h5 className="card-title">{item.name}</h5>
             <p className="card-text">{item.description}</p>
-            <a href={item.link} className="card-text">Learn more about {item.code} here!</a>
+            <a href={item.link} className="card-text text-decoration-none" style={{color: '#222725'}} target="_blank">Learn more about {item.code} here!</a>
           </div>
         </div>
       ))}
