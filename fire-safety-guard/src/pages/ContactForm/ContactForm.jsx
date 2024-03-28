@@ -22,7 +22,7 @@ const ContactForm = () => {
         },
       );
   };
-
+  
   return (
     <div className="container" style={{ backgroundColor: 'white', padding: '2rem' }}>
       <div className="row">
@@ -71,6 +71,7 @@ const ContactForm = () => {
           </form>
         </div>
       </div>
+      {/* <GoogleReview /> */}
     </div>
 
   );
