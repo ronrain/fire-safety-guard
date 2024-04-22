@@ -3,43 +3,45 @@ import './About.css'
 const About = () => {
   return (
     <main>
-      <div className="container" style={{backgroundColor: 'white', padding:'2rem'}}>
-        <h1 className="display-4 text-center">Who We Are</h1>
+      <div className="container main-section" style={{ backgroundColor: 'white', padding: '3rem', marginTop: '3rem' }}>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <img src="NYCFD.png" alt="All Fire Guards are certified by the Fire Department of New York" className="img-fluid" style={{ maxWidth: '20%', height: 'auto', margin: '1rem' }} />
+          <h1 className="display-4 text-center">Who We Are</h1>
+        </div>
         <div className="row justify-content-center">
           <div className="col-lg-8">
-          <div className='mt-4' style={{ display: 'flex', alignItems: 'center' }}>
-  <img src="NYCFD.png" alt="All Fire Guards are certified by the Fire Department of New York" className="img-fluid" style={{ maxWidth: '40%', marginRight: '1rem' }} />
-  <div>
-    <p className="lead" style={{ margin: 0 }}>
-      We are a fire safety company serving the tri-state area. Our expertise extends to <strong>both commercial and residential properties</strong>, including prestigious locations such as UBS Arena and other major sites throughout the tri-state area. We pride ourselves on having all <strong>FDNY Certified Fire Guards</strong>!
-    </p>
-  </div>
-</div>
-
-<br />
-<br />
-            <div className="mt-4">
-              <h3 className="mt-4">Is Your Home Safe?</h3>
-              <img src="./smoke-de.webp" alt="Using WIFI enabled smoke detectors are the future of safety!" className="img-fluid" style={{ float:'left', maxWidth: '60%', height: 'auto', margin:'1rem' }} />
+            <div className='mt-4' style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
               <div>
                 <p>
-                  Your home should be a sanctuary, free from the threat of fire hazards. At OSHA2020 Consultants, we take home safety seriously. Our expert technicians are equipped to conduct thorough inspections of your home, leaving no stone unturned.
-                </p>
-                <p>
-                  During our inspection, we meticulously assess key safety components, including smoke alarms, exits, egress routes, and potential combustible hazards. We prioritize identifying and mitigating any risks to ensure your home is a safe environment for you and your loved ones.
-                </p>
-                <p>
-                  In addition to our comprehensive inspections, we offer state-of-the-art Wi-Fi smoke detectors. These innovative devices provide added convenience without compromising reliability. With real-time notifications and remote monitoring capabilities, you can have peace of mind knowing your home is protected, even when you're away.
-                </p>
-                <p>
-                  Don't wait until it's too late. Take proactive steps to safeguard your home and family today. Contact us to schedule an inspection and learn more about our range of fire safety solutions.
+                  We are a fire safety company serving the tri-state area. Our expertise extends to <strong>both commercial and residential properties</strong>, including prestigious locations such as UBS Arena and other major sites throughout the tri-state area. We pride ourselves on having all <strong>FDNY Certified Fire Guards</strong>!
                 </p>
               </div>
             </div>
 
+            <br />
+            <br />
+            {/* <div className="mt-4"> */}
+            <h3 className="mt-4">Is Your Home Safe?</h3>
+            <img src="./smoke-de.webp" alt="Using WIFI enabled smoke detectors are the future of safety!" className="img-fluid" style={{ float: 'left', maxWidth: '60%', height: 'auto', margin: '1rem' }} />
+            <div>
+              <p>
+                Your home should be a sanctuary, free from the threat of fire hazards. At OSHA2020 Consultants, we take home safety seriously. Our expert technicians are equipped to conduct thorough inspections of your home, leaving no stone unturned.
+              </p>
+              <p>
+                During our inspection, we meticulously assess key safety components, including smoke alarms, exits, egress routes, and potential combustible hazards. We prioritize identifying and mitigating any risks to ensure your home is a safe environment for you and your loved ones.
+              </p>
+              <p>
+                In addition to our comprehensive inspections, we offer state-of-the-art Wi-Fi smoke detectors. These innovative devices provide added convenience without compromising reliability. With real-time notifications and remote monitoring capabilities, you can have peace of mind knowing your home is protected, even when you're away.
+              </p>
+              <p>
+                Don't wait until it's too late. Take proactive steps to safeguard your home and family today. Contact us to schedule an inspection and learn more about our range of fire safety solutions.
+              </p>
+              {/* </div> */}
+            </div>
+
             <div className="mt-4">
               <h3 className="mt-4">Ensuring Safety in Shelters</h3>
-              <img src="./shelter.jpeg" alt="NYC Shelters Need Trained Fire Guards" className="img-fluid" style={{ float:'right', maxWidth: '50%', height: 'auto', margin: '1rem' }} />
+              <img src="./shelter.jpeg" alt="NYC Shelters Need Trained Fire Guards" className="img-fluid" style={{ float: 'right', maxWidth: '50%', height: 'auto', margin: '1rem' }} />
               <div>
                 <p>
                   At OSHA2020 Consultants, we are dedicated to ensuring the safety and well-being of individuals residing in shelters across the tri-state area. Our commitment to fire safety extends to every corner of our community, including those seeking refuge in homeless or emergency shelters.

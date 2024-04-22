@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-
 import './ContactForm.css'
+import GoogleReview from '../../components/GoogleReview/GoogleReview';
 
 const ContactForm = () => {
   const form = useRef();
@@ -24,7 +24,7 @@ const ContactForm = () => {
   };
   
   return (
-    <div className="container" style={{ backgroundColor: 'white', padding: '2rem' }}>
+    <div className="container main-section" style={{ backgroundColor: 'white', padding: '3rem' }}>
       <div className="row">
         <div className="col-md-6">
           <div className="text-center mb-0" style={{ left: '0', width: '100%', padding: '0 20px' }}>
@@ -71,9 +71,8 @@ const ContactForm = () => {
           </form>
         </div>
       </div>
-      {/* <GoogleReview /> */}
+      <GoogleReview />
     </div>
-
   );
 };
 
