@@ -176,16 +176,23 @@ main {
 }
 
 .container {
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
 }
 
 .main-section {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   border-radius: 10px;
+
 }
 
 @media (max-width: 576px) {
-  .container {
+  .main-section {
     margin-top: 0;
   }
 }
+
+/* @media (min-width: 991px) {
+  .main-section, .col-lg-8, .mx-auto {
+    padding: 2rem;
+  }
+} */

@@ -32,9 +32,9 @@ function App() {
         <Route path='/reviews' element={<ReviewPage />} />
       </Routes>
       {isRootPath && (
-        <main className="container main-section" style={{ backgroundColor: 'white', padding: '3rem', paddingTop: '3rem',  }}>
+        <main className="container main-section" style={{ backgroundColor: 'white', padding: '3rem' }}>
           <div className="row">
-            <div className="col-lg-8 mx-auto">
+            <div className="col-lg-8 mx-auto" style={{ margin: '0' }}>
               <h1 className="display-4 text-center">Fire Safety Guard Consultants</h1>
               <img src="./fire-safety.png" alt="At Home Fire Safety" className="fire-safety img-fluid" style={{ float: 'right', maxWidth: '65%', height: 'auto' }} />
               <p className="lead">

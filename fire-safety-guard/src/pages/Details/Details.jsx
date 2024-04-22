@@ -8,7 +8,7 @@ import { locationData, serviceData } from "../../data/data"
 const Details = () => {
   return ( 
     <main>
-      <div className="container main-section" style={{backgroundColor: 'white', padding:'3rem'}}>
+      <div className="container main-section" style={{backgroundColor: 'white', padding: '3rem'}}>
 
       <h1 className="text-center" >What We Do</h1>
       <ServiceList title="We Supply Fire Guards For:" service={serviceData} />

@@ -3,14 +3,14 @@ import './About.css'
 const About = () => {
   return (
     <main>
-      <div className="container main-section" style={{ backgroundColor: 'white', padding: '3rem', marginTop: '3rem' }}>
+      <div className="container main-section" style={{ backgroundColor: 'white', padding: '3rem' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <img src="NYCFD.png" alt="All Fire Guards are certified by the Fire Department of New York" className="img-fluid" style={{ maxWidth: '20%', height: 'auto', margin: '1rem' }} />
+          <img src="NYCFD.png" alt="All Fire Guards are certified by the Fire Department of New York" className="img-fluid" style={{ maxWidth: '45%', height: 'auto', margin: '1rem' }} />
           <h1 className="display-4 text-center">Who We Are</h1>
         </div>
         <div className="row justify-content-center">
           <div className="col-lg-8">
-            <div className='mt-4' style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <div className='mt-4' style={{ display: 'flex', alignItems: 'center' }}>
               <div>
                 <p>
                   We are a fire safety company serving the tri-state area. Our expertise extends to <strong>both commercial and residential properties</strong>, including prestigious locations such as UBS Arena and other major sites throughout the tri-state area. We pride ourselves on having all <strong>FDNY Certified Fire Guards</strong>!
